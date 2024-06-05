@@ -8,7 +8,7 @@ public class Sistemanumericos {
         try {
             numeroDecimal = Integer.parseInt(numeroStr);
         } catch (NumberFormatException e){
-            JOptionPane.showMessageDialog(null, "Error debe ingresar un número entero, no permite palabras");
+            JOptionPane.showMessageDialog(null, "Error debe ingresar un número entero, no permite palabras, vuelva a intentar por favor");
             main(args);
             System.exit(0);
         }
